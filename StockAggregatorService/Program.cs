@@ -17,7 +17,7 @@ namespace StockAggregatorService
         {
             try
             {
-                // Initializing ILogger
+                // Initializing ILogger   111
                 LoggingSource.Initialize(ServiceEventSource.Current.Message);
 
                 ServiceRuntime.RegisterServiceAsync(
